@@ -4,7 +4,7 @@
 		<div class="pa top-0 left-0 width-100 height-100 pl15 pr15">
 			<div class="flex ac mt15 mb15">
 				<notice-widget class="flex-1"/>
-				<div class="ml10 dark bold f16">绑定账号</div>
+				<div class="ml10 dark bold f16" @click="$router.push('/bind_account')">绑定账号</div>
 			</div>
 			<img class="banner width-100 mb10" src="../../static/banner.png">
 			<div>
@@ -41,7 +41,7 @@
 }
 .account_item{
 	height: 58px;
-	background: linear-gradient(175deg, #FDEDFF 0%, #FFFFFF 50%, #FFFFFF 100%);
+	background: linear-gradient(176deg, #FEF7FF 0%, #FFFFFF 100%);
 	box-shadow: 0px 4px 8px 0px #F6F0FF;
 	border-radius: 8px;
 	.account_icon{

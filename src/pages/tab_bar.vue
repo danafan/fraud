@@ -1,6 +1,6 @@
 <template>
 	<div class="box pa top-0 left-0 width-100 height-100 flex flex-col">
-		<div class="page_content pr flex-1">
+		<div class="pr flex-1">
 			<router-view></router-view>
 		</div>
 		<div class="tab flex ac jsa">
@@ -50,9 +50,6 @@
 </script>
 <style lang="less" scoped>
 .box{
-	.page_content{
-		background: #FBFAFD;
-	}
 	.tab{
 		background: #ffffff;
 		width: 100%;
