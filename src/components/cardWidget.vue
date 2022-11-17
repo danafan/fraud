@@ -18,6 +18,7 @@
 </script>
 <style lang="less" scoped>
 .card_widget{
+	margin-bottom: 15px;
 	background: #FFFFFF;
 	border-radius: 8px;
 	.card_title{

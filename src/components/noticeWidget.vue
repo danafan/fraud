@@ -1,5 +1,5 @@
 <template>
-	<div class="notice flex ac pl10 pr10 f12 black">
+	<div class="notice flex ac pl10 pr10 f12 black" @click="$router.push('/notice_list')">
 		<img class="notice_icon mr5" src="../static/notice_icon.png">
 		<div class="flex-1 text-overflow">近期将进行维护，造成的不便请谅解</div>
 		<img class="right_arrow ml5" src="../static/right_arrow.png">

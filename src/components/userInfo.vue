@@ -1,5 +1,5 @@
 <template>
-	<div class="user_info flex flex-col ac jc pa">
+	<div class="user_info flex flex-col ac jc pa" @click="$router.push('/user_info')">
 		<img class="pa width-100 height-100 top-0 left-0" src="../static/info_icon.png">
 		<div class="z9 f12 white">个人</div>
 		<div class="z9 f12 white">资料</div>

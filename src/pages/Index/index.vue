@@ -22,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-		<user-info class="r12 b28"/>
+		<user-info class="r12 b28""/>
 	</div>
 </template>
 <script>
